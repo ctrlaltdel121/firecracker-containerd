@@ -41,5 +41,8 @@ jobs:
           ls -la /mnt
           pwd
           ls -la .
+          docker info
+          cat /etc/docker/daemon.json
+          ps -auxf
           
           
