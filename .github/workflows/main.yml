@@ -36,4 +36,10 @@ jobs:
           df -h
           whoami
           mount
-          find /mnt
+          ls -l /mnt || true
+          find /mnt || true
+          cat /mnt/DATALOSS_WARNING_README.txt || true
+          cat /proc/swaps || true
+          sudo cat /mnt/DATALOSS_WARNING_README.txt || true
+          
+          
