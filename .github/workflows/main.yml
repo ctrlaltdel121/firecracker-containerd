@@ -36,3 +36,4 @@ jobs:
           df -h
           whoami
           mount
+          find /mnt
